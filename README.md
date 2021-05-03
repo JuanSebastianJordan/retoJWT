@@ -48,5 +48,5 @@ roles: [ALL]
 Con estos usuarios se puede realizar el login y probar los diferentes endpoints de la aplicacion. O puede crear nuevos y usar la nueva informacion. 
 Recordar que al hacer login este retorna el token y este debe ser puesto en los headers de authentication de la peticion en Postman como un Bearer token
 para que se pueda usar las funcionalidades de la aplicacion. 
-En la carpeta postman esta la coleccion donde estan los diferentes endpoints de la aplicacion.
+En la carpeta postman esta la coleccion donde estan los diferentes endpoints de la aplicacion. En esta carpeta esta un ejemplo de las diferentes peticiones a la aplicación.
 
