@@ -2,7 +2,7 @@
 
 ## Explicación de la solución
 ### Primera parte del reto
-La aplicación usa una base de datos mongo para persistir la informacion de usuarios y posteriormente veremos que tambien productos.
+La aplicación usa una base de datos mongo (usar un archivo .env con la variable "mongourl" con la url de la base datos mongo que se envia en el entregable de brightspace) para persistir la informacion de usuarios y posteriormente veremos que tambien productos.
 Para la primera parte del reto de persistir la informacion de los usuarios y guardar las contraseñas de forma segura se realizo un servicio de
 registro para crear los usuarios y guardarlos en la base de datos. Para hacer esto usamos mongo como se dijo anteriormente. Para guardar la 
 contraseña cifrada se uso la libreria de bcryptjs la cual nos permite calcular el hash de una cadena de caracteres. Con lo anterior se guarda el 
